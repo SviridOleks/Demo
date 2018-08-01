@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+
+li {
+	list-style: none;
+}
+header {
+	height: 187px;
+	background: url("../images/header-wrapper-bg.png") left top;
+	box-sizing: border-box;
+
+}
+.container {
+	width: 1000px;
+	max-width: 1000px;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	/*height: inherit;*/
+	height: auto;
+}
+.header-block {
+	height: 187px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 212px;
+	height: 100px;
+	/*background: url("../images/logo-bg.png") left top no-repeat;*/
+	background: #A32424;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+.logo a {
+	text-decoration: none;
+	color: #fff;
+	font-family: "Cookie", cursive;
+	font-weight: 400;
+	font-size: 60px;
+}
+.navigation-menu {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 90px;
+}
+
+.navigation-menu a {
+	font-size: 1.2em;
+	color: #fff;
+	margin: 0 15px;
+	line-height: 30px;
+	text-decoration: none;
+	padding: 6px 15px;
+}
+
+.navigation-menu li a:hover,
+.navigation-menu li a.active {
+	background: #881D1D;
+	border-radius: 5px;
+	box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 10px;
+}
+
+.presentation-banner {
+	min-height: 340px;
+	background: url("../images/banner-wrapper-bg.png");
+	padding-top: 30px;
+}
+
+.banner-block {
+	line-height: 340px;
+	max-width: 96%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	box-sizing: border-box;
+	
+}
+.banner-image {
+	max-width: 100%;
+	height: 205px;
+	display: flex;
+	justify-content: center;
+	text-align: center;	
+		
+}
+.banner-image img {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.banner-text {
+	max-width: 100%;
+	line-height: 74px;
+	background: url("../images/banner-caption-bg.png") no-repeat top center;
+	text-align: center;
+	color: #fff;
+	font-family: "Cookie", cursive;
+	font-size: 1.6em;
+	font-weight: normal;
+	letter-spacing: 1.2px;
+	white-space: normal;
+}
+
+.main-block {
+	background: url("../images/page-wrapper-bg.png");
+
+}
+.main-block .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 33px 0;
+	box-sizing: border-box;
+}
+
+section {
+	background: #fff;
+	max-width: 63%;
+	box-sizing: border-box;
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+	margin-left: -20px;
+	border-radius: 5px;
+	/*border: 1px solid black;*/
+}
+
+section h2 {
+	padding: 30px;
+	font-size: 34px;
+	color: rgb(78, 43, 34);
+	font-family: "Arvo", serif;
+	letter-spacing: -2px;
+	font-weight: 400;
+
+}
+
+.post-info {
+	background: url(../images/post-posted-bg.png) left top no-repeat;
+	width: 328px;
+	line-height: 38px;
+	padding-left: 30px;
+}
+.post-info p {
+	font-size: 1.1em;
+	font-weight: normal;
+	font-family: "Arvo", serif;
+	color: #fff;
+	letter-spacing: -1px;
+}
+
+.post-info a {
+	font-size: 1.1em;
+	font-weight: normal;
+	font-family: "Arvo", serif;
+	color: #fff;
+	letter-spacing: -1px;
+}
+.post-image img {
+	padding-left: 30px;
+	border-radius: 5px;
+}
+.post-text {
+	padding: 30px;
+}
+.post-text p {
+	font-size: 1.1em;
+	line-height: 1.9;
+	letter-spacing: -0.5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+
+}
+.post-comments {
+	line-height: 65px;
+	box-sizing: border-box;
+	background: url("../images/page-wrapper-bg.png");
+  /*  border: 1px solid black;*/
+    margin: 0 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Arvo", serif;
+    padding: 0 25px;
+    border-radius: 5px;   
+
+}
+.post-comments p {
+	color: #000;
+	font-size: 1.2em;	
+}
+.post-comments a {
+	color: #000;
+	font-size: 1.0em;
+	font-weight: normal;
+}
+
+.post-comments a:hover {
+	text-decoration: none;
+} 
+.aside-top {
+	background: url("../images/sidebar-bg-01.png") left top no-repeat;
+	height: 15px;
+}
+
+aside {
+	width: 300px;
+	background: url("../images/sidebar-bg-02.png") repeat-y;
+	/*border: 1px solid black;*/
+	border-radius: 5px;
+	
+}
+.aside-info {
+	background: url("../images/sidebar-title-bg.png") right top no-repeat;
+	width: 323px;
+	line-height: 38px;
+	margin: 20px 0;
+
+}
+.aside-info p {
+	color: #fff;
+	margin-left: 30px;
+	font-size: 1.2em;
+	font-weight: 400;
+	font-family: "Arvo", serif;
+
+}
+
+.aside-bottom {
+	background: url("../images/sidebar-bg-03.png") left top no-repeat;
+	height: 15px;
+}
+
+.aside-text p {
+	color: rgb(225, 201, 196);
+	text-shadow: rgb(57, 27, 22) 1px 1px 1px;
+	font-size: 1.1em;
+	padding: 0 50px 15px 27px;
+	line-height: 1.6;
+	font-weight: 100;
+}
+
+.aside-links ul {
+	padding-left: 28px;
+	list-style: none;
+}
+.aside-links ul li {
+	line-height: 34px;
+	width: 240px;
+	border-bottom: 1px solid black;
+}
+.aside-links ul li:last-child {
+	border-bottom: none;
+}
+
+.aside-links ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.1em;
+}
+
+ 
+.widgets-block {
+	min-height: 280px;
+	height: auto;
+	background: url("../images/footer-content-bg-02.png") left top repeat-x;
+	box-sizing: border-box;
+	padding-top: 45px;
+	margin-bottom: -1px;
+	}
+
+.widgets-block .container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	}
+
+.widget {
+	box-sizing: border-box;
+	width: 30%;
+	min-height: 195px;
+/*	background: url('../images/box-widget-bg-02.png');*/
+	background: #592b21;
+	padding: 28px;
+	border-radius: 7px;
+	border: 3px solid #50241a;
+}
+
+.widget:last-child {
+	margin-right: 25px;
+}
+
+.widget h3 {
+	color: #fff;
+	text-align: left;
+	font-family: "Arvo", serif;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+
+.widget p {
+	color: rgb(225, 201, 196);
+	text-shadow: rgb(57, 27, 22) 1px 1px 1px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top: 25px;
+	line-height: 1.8;
+
+}
+
+footer {
+	height: 143px;
+	background: url('../images/footer-bg.png') left top repeat-x;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 40px;
+
+}
+
+ footer p,
+ footer a {
+ 	color: rgb(120, 79, 69);
+	text-shadow: rgb(39, 20, 17) 1px 1px 2px;
+ }
+
+ footer a:hover {
+ 	text-decoration: none;
+ }
+
