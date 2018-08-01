@@ -17,7 +17,7 @@ li {
 }
 header {
 	height: 187px;
-	background: url("../images/header-wrapper-bg.png") left top;
+	background: url("images/header-wrapper-bg.png") left top;
 	box-sizing: border-box;
 
 }
@@ -79,7 +79,7 @@ header {
 
 .presentation-banner {
 	min-height: 340px;
-	background: url("../images/banner-wrapper-bg.png");
+	background: url("images/banner-wrapper-bg.png");
 	padding-top: 30px;
 }
 
@@ -107,7 +107,7 @@ header {
 .banner-text {
 	max-width: 100%;
 	line-height: 74px;
-	background: url("../images/banner-caption-bg.png") no-repeat top center;
+	background: url("images/banner-caption-bg.png") no-repeat top center;
 	text-align: center;
 	color: #fff;
 	font-family: "Cookie", cursive;
@@ -118,7 +118,7 @@ header {
 }
 
 .main-block {
-	background: url("../images/page-wrapper-bg.png");
+	background: url("images/page-wrapper-bg.png");
 
 }
 .main-block .container {
@@ -152,7 +152,7 @@ section h2 {
 }
 
 .post-info {
-	background: url(../images/post-posted-bg.png) left top no-repeat;
+	background: url(images/post-posted-bg.png) left top no-repeat;
 	width: 328px;
 	line-height: 38px;
 	padding-left: 30px;
@@ -190,7 +190,7 @@ section h2 {
 .post-comments {
 	line-height: 65px;
 	box-sizing: border-box;
-	background: url("../images/page-wrapper-bg.png");
+	background: url("images/page-wrapper-bg.png");
   /*  border: 1px solid black;*/
     margin: 0 30px 30px;
     display: flex;
@@ -214,19 +214,19 @@ section h2 {
 	text-decoration: none;
 } 
 .aside-top {
-	background: url("../images/sidebar-bg-01.png") left top no-repeat;
+	background: url("images/sidebar-bg-01.png") left top no-repeat;
 	height: 15px;
 }
 
 aside {
 	width: 300px;
-	background: url("../images/sidebar-bg-02.png") repeat-y;
+	background: url("images/sidebar-bg-02.png") repeat-y;
 	/*border: 1px solid black;*/
 	border-radius: 5px;
 	
 }
 .aside-info {
-	background: url("../images/sidebar-title-bg.png") right top no-repeat;
+	background: url("images/sidebar-title-bg.png") right top no-repeat;
 	width: 323px;
 	line-height: 38px;
 	margin: 20px 0;
@@ -242,7 +242,7 @@ aside {
 }
 
 .aside-bottom {
-	background: url("../images/sidebar-bg-03.png") left top no-repeat;
+	background: url("images/sidebar-bg-03.png") left top no-repeat;
 	height: 15px;
 }
 
@@ -278,7 +278,7 @@ aside {
 .widgets-block {
 	min-height: 280px;
 	height: auto;
-	background: url("../images/footer-content-bg-02.png") left top repeat-x;
+	background: url("images/footer-content-bg-02.png") left top repeat-x;
 	box-sizing: border-box;
 	padding-top: 45px;
 	margin-bottom: -1px;
@@ -325,7 +325,7 @@ aside {
 
 footer {
 	height: 143px;
-	background: url('../images/footer-bg.png') left top repeat-x;
+	background: url('images/footer-bg.png') left top repeat-x;
 	box-sizing: border-box;
 	text-align: center;
 	padding-top: 40px;
